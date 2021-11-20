@@ -1,0 +1,1038 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		38986664EBE0043A3614949E53335639 /* MOBFoundation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B33C3C8202FFE2203CAFCEB78B4ACD5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = MOBFoundation;
+		};
+		896D955B58107744A37D25F4F2AD6607 /* mob_sharesdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BE2FFE467A95FCFF81F24862634AAA1E /* Build configuration list for PBXAggregateTarget "mob_sharesdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+				CB8F24DDC6BD43B9C537515E86225225 /* PBXTargetDependency */,
+				4FFE261E4E6AF5628E2A81B820869DED /* PBXTargetDependency */,
+				8918CAA661E5AA63A0A2A39591C4196D /* PBXTargetDependency */,
+				144D712F396F238C9E31253154669E47 /* PBXTargetDependency */,
+			);
+			name = mob_sharesdk;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		038202C8FE34E69ECDD26D228854C643 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 793F1C25484AEFA18C4477A1F97D0F38 /* zh-Hans.lproj */; };
+		09A7EB3914C2D36F6352CD4213E207CB /* Facebook.js in Resources */ = {isa = PBXBuildFile; fileRef = F5F8494386ADAD619AEB1E2444AB70B6 /* Facebook.js */; };
+		0E25A42CA5A56CBD45ECA3453140B6A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2218881E54B569AD7BC06368DC4B566A /* ShareSDK.js in Resources */ = {isa = PBXBuildFile; fileRef = A1A881AD49CDF5B33D7B6771B512DCA3 /* ShareSDK.js */; };
+		33800866C150DE7813A78502468115FB /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9011BBCD03FB0A0E2775C5BFAAFDDA67 /* Base.lproj */; };
+		405E8C90551A79117E8645E6DB4F073A /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B2B7B7C83D8A3BA7E9206D3D1968D9AA /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628720535D4F2C4A9B1E26F7EAC92F75 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22C762013A85C0051293C0AA4DFBE6A9 /* en.lproj */; };
+		68DD4DA9B4E6AD9C21BA4214396AADCB /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5FDE2FE2E8AC50928365441D8E67B2 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-dummy.m */; };
+		71ACB860531F5917EB99AFDFFC9C1801 /* NativeExt.js in Resources */ = {isa = PBXBuildFile; fileRef = A749D6AFD095675E7668E6D91AA81475 /* NativeExt.js */; };
+		DB1CC355D0EB8566BF8F66733D8F7489 /* GooglePlus.js in Resources */ = {isa = PBXBuildFile; fileRef = 2E6760ECBE8D05C36E719ADE7DCF5C3C /* GooglePlus.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67FA44C80AD53237DFD6704EEE10781A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38986664EBE0043A3614949E53335639;
+			remoteInfo = MOBFoundation;
+		};
+		696062DFAAEC45BC80C1034A2E5C5C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38986664EBE0043A3614949E53335639;
+			remoteInfo = MOBFoundation;
+		};
+		719D6E821ED77CCAF1BDEBE68563650C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E43ADB9341F2057065B6280D51629C27;
+			remoteInfo = "mob_sharesdk-ShareSDK_JS_Facebook";
+		};
+		7A391ED019FADFF4932780153405F640 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 896D955B58107744A37D25F4F2AD6607;
+			remoteInfo = mob_sharesdk;
+		};
+		8B1A4C925213A29971A3E0CA8A087DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56E13ADFD89B8D119ED0C14777C1095D;
+			remoteInfo = "mob_sharesdk-ShareSDK_JS_GooglePlus";
+		};
+		A8898FA64D5B585D8819FDD4834ECFD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53D778643A9AE0DE5A8180843B2ACB4A;
+			remoteInfo = "mob_sharesdk-ShareSDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19835CDF36CC81656211C607ACB8EEA6 /* ResourceBundle-ShareSDK-mob_sharesdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareSDK-mob_sharesdk-Info.plist"; sourceTree = "<group>"; };
+		22C762013A85C0051293C0AA4DFBE6A9 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = ShareSDK/Support/Required/ShareSDK.bundle/en.lproj; sourceTree = "<group>"; };
+		251FD85324040032BC05E81EE4AAB55A /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ShareSDK/Support/PlatformSDK/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = mob_sharesdk.xcconfig; sourceTree = "<group>"; };
+		2982B70887A5E97289A51232A275B48E /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-Info.plist"; sourceTree = "<group>"; };
+		2E6760ECBE8D05C36E719ADE7DCF5C3C /* GooglePlus.js */ = {isa = PBXFileReference; includeInIndex = 1; name = GooglePlus.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/platforms/GooglePlus.js; sourceTree = "<group>"; };
+		30628D7281299B25C41B3C51798C0680 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-resources.sh"; sourceTree = "<group>"; };
+		3F11F98214CEA3143EC798C00110CC0E /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.release.xcconfig"; sourceTree = "<group>"; };
+		43C05A4AC8CA3684D0EACB3D7C772814 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MOBFoundation.framework; path = MOBFoundation/MOBFoundation.framework; sourceTree = "<group>"; };
+		4EF11249BC571E08F98AF87E00FD509E /* Pods_ThreeSDK_Mob_GoogleFacebookTwitterLine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ThreeSDK_Mob_GoogleFacebookTwitterLine.framework; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		552DEA1634C0BAE3586A542E6CE8D878 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ShareSDK/Support/PlatformSDK/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		72DC880DBD2810653FDDD9F6406DC596 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		793F1C25484AEFA18C4477A1F97D0F38 /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "ShareSDK/Support/Required/ShareSDK.bundle/zh-Hans.lproj"; sourceTree = "<group>"; };
+		7CA274147774C55520377900CDCD2EBD /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = ShareSDK/Support/PlatformSDK/FacebookSDK/FacebookSDKStrings.bundle; sourceTree = "<group>"; };
+		81C9E9F8C994FC5C54AD4554B3E14AF8 /* ShareSDK_JS_Facebook.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ShareSDK_JS_Facebook.bundle; path = "mob_sharesdk-ShareSDK_JS_Facebook.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C8FD010EE625C42EE267EAE0B389EA /* ShareSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ShareSDK.bundle; path = "mob_sharesdk-ShareSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C2F0FDFC3E41EBAA94F551F33855F6D /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F5E4C0A963BED873858228A5D2039DE /* ResourceBundle-ShareSDK_JS_GooglePlus-mob_sharesdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareSDK_JS_GooglePlus-mob_sharesdk-Info.plist"; sourceTree = "<group>"; };
+		9011BBCD03FB0A0E2775C5BFAAFDDA67 /* Base.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = Base.lproj; path = ShareSDK/Support/Required/ShareSDK.bundle/Base.lproj; sourceTree = "<group>"; };
+		91721FB48102831B14B1CA19A027CE0C /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDK.framework; path = ShareSDK/ShareSDK.framework; sourceTree = "<group>"; };
+		987E5DD06093356EF127DAF3C3018617 /* FacebookConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookConnector.framework; path = ShareSDK/Support/PlatformConnector/FacebookConnector.framework; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1A881AD49CDF5B33D7B6771B512DCA3 /* ShareSDK.js */ = {isa = PBXFileReference; includeInIndex = 1; name = ShareSDK.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/ShareSDK.js; sourceTree = "<group>"; };
+		A749D6AFD095675E7668E6D91AA81475 /* NativeExt.js */ = {isa = PBXFileReference; includeInIndex = 1; name = NativeExt.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/NativeExt.js; sourceTree = "<group>"; };
+		A8B37A8BDB559751CFECEEC5F08955AC /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.modulemap"; sourceTree = "<group>"; };
+		B2B7B7C83D8A3BA7E9206D3D1968D9AA /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-umbrella.h"; sourceTree = "<group>"; };
+		B790B4C7DF824DD8D134B540CF2812C6 /* ShareSDK_JS_GooglePlus.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ShareSDK_JS_GooglePlus.bundle; path = "mob_sharesdk-ShareSDK_JS_GooglePlus.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C306BD53886C586E2AF5973BEEEA10AE /* MOBFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MOBFoundation.xcconfig; sourceTree = "<group>"; };
+		C6FC76251A8BD7774B6E70EF4164C1C8 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCFA7F6E3627EC7BD97028FF4BDD601A /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKConnector.framework; path = ShareSDK/Support/Required/ShareSDKConnector.framework; sourceTree = "<group>"; };
+		DFC4308D38B5EF09B91E6630E31AD6DE /* GooglePlusConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlusConnector.framework; path = ShareSDK/Support/PlatformConnector/GooglePlusConnector.framework; sourceTree = "<group>"; };
+		EE499701C8421770826370F16560F6D7 /* ResourceBundle-ShareSDK_JS_Facebook-mob_sharesdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShareSDK_JS_Facebook-mob_sharesdk-Info.plist"; sourceTree = "<group>"; };
+		EE5FDE2FE2E8AC50928365441D8E67B2 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-dummy.m"; sourceTree = "<group>"; };
+		F5F8494386ADAD619AEB1E2444AB70B6 /* Facebook.js */ = {isa = PBXFileReference; includeInIndex = 1; name = Facebook.js; path = ShareSDK/Support/Required/ShareSDK.bundle/ScriptCore/platforms/Facebook.js; sourceTree = "<group>"; };
+		F859F39A6C3DA9AE4C36F86AC3BC04B3 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ShareSDK/Support/PlatformSDK/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CE220B6A3BCD9B5E985EC1F77D27FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FA55CA127450443958521444B8DAB3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74BE98F54B2CFC93BA043ACA5B3FD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B599B47A4EB0518B9AF25679350BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E25A42CA5A56CBD45ECA3453140B6A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01261E00963800BE6BC56B519ACC67F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C555C4CB13EBB8E50F176A562721644A /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0C12BBB3435EBF4E85DBEE9DDA3C01F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */,
+				19835CDF36CC81656211C607ACB8EEA6 /* ResourceBundle-ShareSDK-mob_sharesdk-Info.plist */,
+				EE499701C8421770826370F16560F6D7 /* ResourceBundle-ShareSDK_JS_Facebook-mob_sharesdk-Info.plist */,
+				8F5E4C0A963BED873858228A5D2039DE /* ResourceBundle-ShareSDK_JS_GooglePlus-mob_sharesdk-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/mob_sharesdk";
+			sourceTree = "<group>";
+		};
+		32B94DD7E8E678815CAC07C6AED543A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				987E5DD06093356EF127DAF3C3018617 /* FacebookConnector.framework */,
+				251FD85324040032BC05E81EE4AAB55A /* FBSDKCoreKit.framework */,
+				552DEA1634C0BAE3586A542E6CE8D878 /* FBSDKLoginKit.framework */,
+				F859F39A6C3DA9AE4C36F86AC3BC04B3 /* FBSDKShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		504179654B63CA174441A5B5FA28300D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFC4308D38B5EF09B91E6630E31AD6DE /* GooglePlusConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6BA06436D1AA915078F3BB49B7B11B7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DD81FF13D3538165AA1408655E84751 /* mob_sharesdk */,
+				F6F5D019C65FAC1944FA34DB01A1208C /* MOBFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C9863575EEBAF656DC7A157756B30B6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5F8494386ADAD619AEB1E2444AB70B6 /* Facebook.js */,
+				7CA274147774C55520377900CDCD2EBD /* FacebookSDKStrings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DD81FF13D3538165AA1408655E84751 /* mob_sharesdk */ = {
+			isa = PBXGroup;
+			children = (
+				99E2A84A4141FA386F81D39E5E783304 /* ShareSDK */,
+				DA4E1DC437A5F9F38D1A41EB17520A58 /* ShareSDKPlatforms */,
+				0C12BBB3435EBF4E85DBEE9DDA3C01F3 /* Support Files */,
+			);
+			name = mob_sharesdk;
+			path = mob_sharesdk;
+			sourceTree = "<group>";
+		};
+		8119878E2CB67873D86052E585F6C8EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91721FB48102831B14B1CA19A027CE0C /* ShareSDK.framework */,
+				DCFA7F6E3627EC7BD97028FF4BDD601A /* ShareSDKConnector.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AE59D9313AF6D267A8A2D3A899D4DA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E6760ECBE8D05C36E719ADE7DCF5C3C /* GooglePlus.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		99741A78BCD5BDA6826AC01311DF8D2B /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				32B94DD7E8E678815CAC07C6AED543A2 /* Frameworks */,
+				6C9863575EEBAF656DC7A157756B30B6 /* Resources */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		99E2A84A4141FA386F81D39E5E783304 /* ShareSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8119878E2CB67873D86052E585F6C8EE /* Frameworks */,
+				E800396C4B437AD7F80F66D83665AE7A /* Resources */,
+			);
+			name = ShareSDK;
+			sourceTree = "<group>";
+		};
+		B1FCC16AECACE37C59F08FDC366577D2 /* GooglePlus */ = {
+			isa = PBXGroup;
+			children = (
+				504179654B63CA174441A5B5FA28300D /* Frameworks */,
+				8AE59D9313AF6D267A8A2D3A899D4DA7 /* Resources */,
+			);
+			name = GooglePlus;
+			sourceTree = "<group>";
+		};
+		C555C4CB13EBB8E50F176A562721644A /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine */ = {
+			isa = PBXGroup;
+			children = (
+				A8B37A8BDB559751CFECEEC5F08955AC /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.modulemap */,
+				C6FC76251A8BD7774B6E70EF4164C1C8 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-acknowledgements.markdown */,
+				8C2F0FDFC3E41EBAA94F551F33855F6D /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-acknowledgements.plist */,
+				EE5FDE2FE2E8AC50928365441D8E67B2 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-dummy.m */,
+				2982B70887A5E97289A51232A275B48E /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-Info.plist */,
+				30628D7281299B25C41B3C51798C0680 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-resources.sh */,
+				B2B7B7C83D8A3BA7E9206D3D1968D9AA /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-umbrella.h */,
+				72DC880DBD2810653FDDD9F6406DC596 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.debug.xcconfig */,
+				3F11F98214CEA3143EC798C00110CC0E /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.release.xcconfig */,
+			);
+			name = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine";
+			path = "Target Support Files/Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine";
+			sourceTree = "<group>";
+		};
+		CB3132C7D65A06E4C44427D566A54275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43C05A4AC8CA3684D0EACB3D7C772814 /* MOBFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6BA06436D1AA915078F3BB49B7B11B7B /* Pods */,
+				EC1B3F89F83C6A9A29BC2B701A6FB82A /* Products */,
+				01261E00963800BE6BC56B519ACC67F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA4E1DC437A5F9F38D1A41EB17520A58 /* ShareSDKPlatforms */ = {
+			isa = PBXGroup;
+			children = (
+				99741A78BCD5BDA6826AC01311DF8D2B /* Facebook */,
+				B1FCC16AECACE37C59F08FDC366577D2 /* GooglePlus */,
+			);
+			name = ShareSDKPlatforms;
+			sourceTree = "<group>";
+		};
+		E800396C4B437AD7F80F66D83665AE7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9011BBCD03FB0A0E2775C5BFAAFDDA67 /* Base.lproj */,
+				22C762013A85C0051293C0AA4DFBE6A9 /* en.lproj */,
+				A749D6AFD095675E7668E6D91AA81475 /* NativeExt.js */,
+				A1A881AD49CDF5B33D7B6771B512DCA3 /* ShareSDK.js */,
+				793F1C25484AEFA18C4477A1F97D0F38 /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EC1B3F89F83C6A9A29BC2B701A6FB82A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EF11249BC571E08F98AF87E00FD509E /* Pods_ThreeSDK_Mob_GoogleFacebookTwitterLine.framework */,
+				82C8FD010EE625C42EE267EAE0B389EA /* ShareSDK.bundle */,
+				81C9E9F8C994FC5C54AD4554B3E14AF8 /* ShareSDK_JS_Facebook.bundle */,
+				B790B4C7DF824DD8D134B540CF2812C6 /* ShareSDK_JS_GooglePlus.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6BE19493F5140441C9F22473166E146 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C306BD53886C586E2AF5973BEEEA10AE /* MOBFoundation.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MOBFoundation";
+			sourceTree = "<group>";
+		};
+		F6F5D019C65FAC1944FA34DB01A1208C /* MOBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				CB3132C7D65A06E4C44427D566A54275 /* Frameworks */,
+				F6BE19493F5140441C9F22473166E146 /* Support Files */,
+			);
+			name = MOBFoundation;
+			path = MOBFoundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91C74DC8287C7168B3307082661572E9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				405E8C90551A79117E8645E6DB4F073A /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53D778643A9AE0DE5A8180843B2ACB4A /* mob_sharesdk-ShareSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B668FEC61DDF5899A91D8E9ECEF89154 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK" */;
+			buildPhases = (
+				0F0A740DB99C4AAFDF7F1C3883555D11 /* Sources */,
+				9FA55CA127450443958521444B8DAB3B /* Frameworks */,
+				DFDA09EE92F876A1592F26F593107AED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob_sharesdk-ShareSDK";
+			productName = "mob_sharesdk-ShareSDK";
+			productReference = 82C8FD010EE625C42EE267EAE0B389EA /* ShareSDK.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		56E13ADFD89B8D119ED0C14777C1095D /* mob_sharesdk-ShareSDK_JS_GooglePlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64840E8E61403D2B6AE35DDF096CCD0E /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_GooglePlus" */;
+			buildPhases = (
+				9F3A67D6776FD216ECE9D0927B7DC185 /* Sources */,
+				D74BE98F54B2CFC93BA043ACA5B3FD3E /* Frameworks */,
+				D46990D236E181E6ECCE70377DE88153 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob_sharesdk-ShareSDK_JS_GooglePlus";
+			productName = "mob_sharesdk-ShareSDK_JS_GooglePlus";
+			productReference = B790B4C7DF824DD8D134B540CF2812C6 /* ShareSDK_JS_GooglePlus.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C231A0FF5CC66FBE484FD6907D120378 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 237EB555D03BCC588F29925C6D06B1D8 /* Build configuration list for PBXNativeTarget "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine" */;
+			buildPhases = (
+				91C74DC8287C7168B3307082661572E9 /* Headers */,
+				9A5EB1827B4E34D3007676864D880606 /* Sources */,
+				E2B599B47A4EB0518B9AF25679350BD2 /* Frameworks */,
+				9B983FA2A94434449D2F31EF2943ADEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89E76ADB3A5D9A528302CE6B8EABB383 /* PBXTargetDependency */,
+				9FF4E318827022FC6E343F77B896FCE9 /* PBXTargetDependency */,
+			);
+			name = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine";
+			productName = "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine";
+			productReference = 4EF11249BC571E08F98AF87E00FD509E /* Pods_ThreeSDK_Mob_GoogleFacebookTwitterLine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E43ADB9341F2057065B6280D51629C27 /* mob_sharesdk-ShareSDK_JS_Facebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 598C128E8BA5C29476E1CC5EF58342E7 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_Facebook" */;
+			buildPhases = (
+				D4AABE8F31BA2FEC191DD6EA9A7934B4 /* Sources */,
+				98CE220B6A3BCD9B5E985EC1F77D27FB /* Frameworks */,
+				73DB585F92756FBDB06D8088F48E9C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mob_sharesdk-ShareSDK_JS_Facebook";
+			productName = "mob_sharesdk-ShareSDK_JS_Facebook";
+			productReference = 81C9E9F8C994FC5C54AD4554B3E14AF8 /* ShareSDK_JS_Facebook.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EC1B3F89F83C6A9A29BC2B701A6FB82A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				896D955B58107744A37D25F4F2AD6607 /* mob_sharesdk */,
+				53D778643A9AE0DE5A8180843B2ACB4A /* mob_sharesdk-ShareSDK */,
+				E43ADB9341F2057065B6280D51629C27 /* mob_sharesdk-ShareSDK_JS_Facebook */,
+				56E13ADFD89B8D119ED0C14777C1095D /* mob_sharesdk-ShareSDK_JS_GooglePlus */,
+				38986664EBE0043A3614949E53335639 /* MOBFoundation */,
+				C231A0FF5CC66FBE484FD6907D120378 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73DB585F92756FBDB06D8088F48E9C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09A7EB3914C2D36F6352CD4213E207CB /* Facebook.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B983FA2A94434449D2F31EF2943ADEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D46990D236E181E6ECCE70377DE88153 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB1CC355D0EB8566BF8F66733D8F7489 /* GooglePlus.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDA09EE92F876A1592F26F593107AED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33800866C150DE7813A78502468115FB /* Base.lproj in Resources */,
+				628720535D4F2C4A9B1E26F7EAC92F75 /* en.lproj in Resources */,
+				71ACB860531F5917EB99AFDFFC9C1801 /* NativeExt.js in Resources */,
+				2218881E54B569AD7BC06368DC4B566A /* ShareSDK.js in Resources */,
+				038202C8FE34E69ECDD26D228854C643 /* zh-Hans.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F0A740DB99C4AAFDF7F1C3883555D11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A5EB1827B4E34D3007676864D880606 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68DD4DA9B4E6AD9C21BA4214396AADCB /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F3A67D6776FD216ECE9D0927B7DC185 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4AABE8F31BA2FEC191DD6EA9A7934B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		144D712F396F238C9E31253154669E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOBFoundation;
+			target = 38986664EBE0043A3614949E53335639 /* MOBFoundation */;
+			targetProxy = 696062DFAAEC45BC80C1034A2E5C5C25 /* PBXContainerItemProxy */;
+		};
+		4FFE261E4E6AF5628E2A81B820869DED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mob_sharesdk-ShareSDK_JS_Facebook";
+			target = E43ADB9341F2057065B6280D51629C27 /* mob_sharesdk-ShareSDK_JS_Facebook */;
+			targetProxy = 719D6E821ED77CCAF1BDEBE68563650C /* PBXContainerItemProxy */;
+		};
+		8918CAA661E5AA63A0A2A39591C4196D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mob_sharesdk-ShareSDK_JS_GooglePlus";
+			target = 56E13ADFD89B8D119ED0C14777C1095D /* mob_sharesdk-ShareSDK_JS_GooglePlus */;
+			targetProxy = 8B1A4C925213A29971A3E0CA8A087DB1 /* PBXContainerItemProxy */;
+		};
+		89E76ADB3A5D9A528302CE6B8EABB383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MOBFoundation;
+			target = 38986664EBE0043A3614949E53335639 /* MOBFoundation */;
+			targetProxy = 67FA44C80AD53237DFD6704EEE10781A /* PBXContainerItemProxy */;
+		};
+		9FF4E318827022FC6E343F77B896FCE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = mob_sharesdk;
+			target = 896D955B58107744A37D25F4F2AD6607 /* mob_sharesdk */;
+			targetProxy = 7A391ED019FADFF4932780153405F640 /* PBXContainerItemProxy */;
+		};
+		CB8F24DDC6BD43B9C537515E86225225 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "mob_sharesdk-ShareSDK";
+			target = 53D778643A9AE0DE5A8180843B2ACB4A /* mob_sharesdk-ShareSDK */;
+			targetProxy = A8898FA64D5B585D8819FDD4834ECFD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		042A0B27FD592D1E97EFB1B31E5C725C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72DC880DBD2810653FDDD9F6406DC596 /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine/Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine/Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0BD77B62B0CA39C712BDA295B0E2DDAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_Facebook-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_Facebook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1ECA0555EE0836E3B5FFB136EEBE1F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2ABEAEF4CDCAD555A427F84F879D3183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		53B4F206C71AA8B657B4193C4C0BE1F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F11F98214CEA3143EC798C00110CC0E /* Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine/Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine/Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		712F0EF4B04CBCE5BC4A31E31044D57D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79A51B9271F2DD837058C9A2659D1857 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C0EF4998F7D402974E2EC09B731745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_GooglePlus-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_GooglePlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		955969BAF61B1364D75D07475FF5AE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C306BD53886C586E2AF5973BEEEA10AE /* MOBFoundation.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A015DFBC6AF661535A8ED2C0B52569A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C306BD53886C586E2AF5973BEEEA10AE /* MOBFoundation.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5E28149C5070A821582ED45CAA8AE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_Facebook-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_Facebook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AEC0FD4C2D33389A20B31D2A225A4CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK_JS_GooglePlus-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK_JS_GooglePlus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C3D64790A0FE037697A0C2CDF06EBC03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F2B28ECAF5688474C880F3745128E93F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D5872CC7E744323982F18660ED9145 /* mob_sharesdk.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/mob_sharesdk";
+				IBSC_MODULE = mob_sharesdk;
+				INFOPLIST_FILE = "Target Support Files/mob_sharesdk/ResourceBundle-ShareSDK-mob_sharesdk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ShareSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		237EB555D03BCC588F29925C6D06B1D8 /* Build configuration list for PBXNativeTarget "Pods-ThreeSDK_Mob_GoogleFacebookTwitterLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042A0B27FD592D1E97EFB1B31E5C725C /* Debug */,
+				53B4F206C71AA8B657B4193C4C0BE1F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ECA0555EE0836E3B5FFB136EEBE1F4E /* Debug */,
+				C3D64790A0FE037697A0C2CDF06EBC03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		598C128E8BA5C29476E1CC5EF58342E7 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_Facebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5E28149C5070A821582ED45CAA8AE18 /* Debug */,
+				0BD77B62B0CA39C712BDA295B0E2DDAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64840E8E61403D2B6AE35DDF096CCD0E /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK_JS_GooglePlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEC0FD4C2D33389A20B31D2A225A4CAF /* Debug */,
+				84C0EF4998F7D402974E2EC09B731745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B33C3C8202FFE2203CAFCEB78B4ACD5 /* Build configuration list for PBXAggregateTarget "MOBFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				955969BAF61B1364D75D07475FF5AE34 /* Debug */,
+				A015DFBC6AF661535A8ED2C0B52569A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B668FEC61DDF5899A91D8E9ECEF89154 /* Build configuration list for PBXNativeTarget "mob_sharesdk-ShareSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B28ECAF5688474C880F3745128E93F /* Debug */,
+				2ABEAEF4CDCAD555A427F84F879D3183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE2FFE467A95FCFF81F24862634AAA1E /* Build configuration list for PBXAggregateTarget "mob_sharesdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79A51B9271F2DD837058C9A2659D1857 /* Debug */,
+				712F0EF4B04CBCE5BC4A31E31044D57D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
